@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "ImageObject",
+    "name": "name of the image",
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{Dynamic image URL"
+    },
+    "datePublished": "{{Dynamic date in ISO format}}",
+    "dateModified": "{{Dynamic date in ISO format}}",
+    "description": "{{ dynamic - this is a description of the image, can be taken from the comntent or meta description}}", 
+    "keywords": "{{dynamic - deodorant, working out}}"
+  }
+ </script>
