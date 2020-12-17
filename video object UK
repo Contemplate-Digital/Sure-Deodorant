@@ -1,0 +1,14 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "contentUrl": "{{dynamic video URL}}",
+    "name": "{{dynamic name of the video}}",
+    "uploadDate": "{{dynamic date in ISO format}}",
+    "description": "{{this is a description of the image, can be taken from the comntent or meta description}}", 
+    "keywords": "{{deodorant, working out}}",
+    "thumbnailUrl": "{{dynamic thumbnail image URL}}",
+    "transcript": "{{The full transcript of the video}}", 
+    "duration": "{{Dynamic time in ISO format e.g. PT1M33S}}"
+  }
+ </script>
