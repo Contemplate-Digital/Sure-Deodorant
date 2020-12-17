@@ -1,0 +1,51 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "description": "{{Dynamic Description}}",
+  "name": "{{Dynamic Name}}",
+  "image": "{{Dynamic Image URL}}",
+  "sku": "{{skunumber}}",
+  "gtin8": "{{gtinnumber}}",
+  "brand": "Sure",
+  "offers": {
+    "@type": "Offer",
+    "url": "{{Dynamic URL}}",
+    "price": "{{Dyanmic Price - no £ sign}}",
+    "priceCurrency": "GDP"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "{{Dynamic value up to 5}}",
+    "reviewCount": "{{Dynamic count of reviews}}"
+    },
+    "review": [
+    {
+      "@type": "Review",
+      "author": "{{Dynamic Name field}}",
+      "datePublished": "{{dynamic data ISO format}}",
+      "reviewBody": "{{dynamic review body - This is a review from a happy customer}}",
+      "name": "{{Dynamic title of review}}",
+      "reviewRating": {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "{{dynamic rating from customer}}",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": "{{Dynamic Name field}}",
+      "datePublished": "{{dynamic data ISO format}}",
+      "reviewBody": "{{dynamic review body - This is a review from a happy customer}}",
+      "name": "{{Dynamic title of review}}",
+      "reviewRating": {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "{{dynamic rating from customer}}",
+        "worstRating": "1"
+      }
+    }
+  ]
+  }
+  </script>
