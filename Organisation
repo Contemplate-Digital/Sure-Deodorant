@@ -1,0 +1,36 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Sure Deodorant",
+  "legalName": "Sure",
+  "leiCode": "01234345",
+  "url": "https://www.suredeodorant.co.uk/",
+  "logo": "{{INCLUDE APPROPRAITE LOGO URL}}",
+  "sameAs": [
+  "https://www.facebook.com/sureukie",
+  "https://www.youtube.com/sureuk",
+  "https://twitter.com/Sure",
+  "https://www.instagram.com/sure/"
+  ],
+	"address":{
+	  "@type":"PostalAddress",
+	  "streetAddress":"Sure Consumer Core, Unilever UK, Freepost Ad Mail 1000",
+	  "addressRegion":"London",
+	  "addressCountry":"GB",
+	  "postalCode":"SW1A 2XX"},
+	  "telephone":"+44 (0) 800 123456",
+	  "contactPoint":[
+	    {
+	    "@type":"contactPoint",
+	    "telephone":"0800 0852639",
+	    "contactType":"Sure Deodorant Customer Service UK"
+	    },
+	    {
+    	"@type":"contactPoint",
+    	"telephone":"1850 404060",
+    	"contactType":"Sure Deodorant Customer Service IE"
+	    }
+  	  ]
+	 }
+</script>
